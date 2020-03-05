@@ -1,8 +1,11 @@
 import React from 'react';
 import logo from './logo.svg';
+import _ from 'lodash';
 import './App.css';
 
 function App() {
+  console.log('lodash');
+  console.log(_.VERSION);
   return (
     <div className="App">
       <header className="App-header">
